@@ -41,3 +41,9 @@ keymap("x", "p", [["_dP]], opts)
 keymap("n", "<leader>s", "<cmd>:w<cr>", opts)  -- Save the file
 keymap("n", "<leader>q", "<cmd>:q<cr>", opts)  -- Quit Vim
 
+-- Hop keymaps
+keymap("n", "<leader>hw", "<cmd>:HopWord<cr>", opts)
+keymap("n", "<leader>hc", "<cmd>HopChar1<cr>", opts)
+keymap("n", "<leader>hh", "<cmd>HopChar2<cr>", opts)
+keymap("n", "<leader>hl","<cmd>HopLine<cr>", opts)
+keymap("n", "<leader>h/","<cmd>HopPattern<cr>", opts)
