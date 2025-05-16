@@ -37,10 +37,6 @@ keymap("v", ">", ">gv", opts)
 -- Don't overwrite the clipboard when pasting in visual mode
 keymap("x", "p", [["_dP]], opts)
 
--- Map <leader>s to save the file and <leader>q to quit Vim
-keymap("n", "<leader>s", "<cmd>:w<cr>", opts)  -- Save the file
-keymap("n", "<leader>q", "<cmd>:q<cr>", opts)  -- Quit Vim
-
 -- Hop keymaps
 keymap("n", "<leader>hw", "<cmd>:HopWord<cr>", opts)
 keymap("n", "<leader>hc", "<cmd>HopChar1<cr>", opts)
