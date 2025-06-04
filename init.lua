@@ -2,8 +2,7 @@
 -- ┏┓┃┃┓┏┳┓
 -- ┛┗┗┛┗┛┗┗
 -- Neo(vim) where less is more
---               @ezra/nvim-config
---
+--               @ColdTea0/neovim-config
 require "core"
 
 require "plugins"
