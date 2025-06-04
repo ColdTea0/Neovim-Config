@@ -5,3 +5,8 @@
 --               @ezra/nvim-config
 --
 require "core"
+
+require "plugins"
+
+require "core.lazy"
+
