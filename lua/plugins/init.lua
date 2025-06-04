@@ -1,3 +1,7 @@
 spec "plugins.treesitter"
 spec "plugins.colorscheme"
-
+spec "plugins.whichkey"
+spec "plugins.alpha"
+spec "plugins.telescope"
+spec "plugins.lspconfig"
+spec "plugins.mason"
